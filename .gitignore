@@ -24,3 +24,4 @@ ForgeTutorial_Server.launch
 .project
 .classpath
 gradlew.bat
+bin/mcmod.info
