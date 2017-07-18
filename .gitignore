@@ -24,8 +24,5 @@ ForgeTutorial_Server.launch
 .project
 .classpath
 gradlew.bat
-bin/mcmod.info
-bin/assets/stm/textures/items/tutorialitem.png
-bin/assets/stm/lang/en_us.lang
-bin/assets/stm/models/item/tutorialitem.json
-bin/pack.mcmeta
+bin/
+ForgeTutorialPictures/

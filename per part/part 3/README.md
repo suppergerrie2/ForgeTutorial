@@ -1,1 +1,1 @@
-In this part we added an item. The tutorial will be online on 31-7-2017 18:00
+In this part we added an item. The tutorial will be online on 28-07-2017 18:00
