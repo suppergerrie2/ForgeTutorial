@@ -1,0 +1,1 @@
+In this part we added the necessary files for forge to recognize our mod. The tutorial will be online on 24-7-2017 18:00
