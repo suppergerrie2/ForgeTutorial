@@ -4,6 +4,7 @@ import com.suppergerrie2.tutorial.Reference;
 import com.suppergerrie2.tutorial.items.ItemBasic;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
@@ -14,10 +15,10 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod.EventBusSubscriber(modid=Reference.MODID)
 public class ModItems {
 	
-	static ItemBasic tutorialItem;
+	static Item tutorialItem;
 	
 	public static void init() {
-		tutorialItem = new ItemBasic("tutorialItem");
+		tutorialItem = new ItemBasic("tutorialItem").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32);
 	}
 	
 	@SubscribeEvent
