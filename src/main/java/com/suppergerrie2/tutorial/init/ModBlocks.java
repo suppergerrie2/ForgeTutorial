@@ -17,7 +17,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod.EventBusSubscriber(modid=Reference.MODID)
 public class ModBlocks {
 
-	static BlockBasic tutorialBlock;
+	static Block tutorialBlock;
 	
 	public static void init() {
 		tutorialBlock = new BlockBasic("tutorialBlock", Material.ROCK);
