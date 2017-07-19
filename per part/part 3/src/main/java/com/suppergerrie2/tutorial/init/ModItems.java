@@ -14,7 +14,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @Mod.EventBusSubscriber(modid=Reference.MODID)
 public class ModItems {
 	
-	static ItemBasic tutorialItem;
+	static Item tutorialItem;
 	
 	public static void init() {
 		tutorialItem = new ItemBasic("tutorialItem");
