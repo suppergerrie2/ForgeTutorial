@@ -6,6 +6,7 @@ import com.suppergerrie2.tutorial.blocks.BlockBasic;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -20,7 +21,8 @@ public class ModBlocks {
 	static Block tutorialBlock;
 	
 	public static void init() {
-		tutorialBlock = new BlockBasic("tutorialBlock", Material.ROCK);
+		tutorialBlock = new BlockBasic("tutorialBlock", Material.ROCK).setHardness(1.5f).setCreativeTab(CreativeTabs.BUILDING_BLOCKS).setLightLevel(1.0f);
+		tutorialBlock.setHarvestLevel("pickaxe", 2);
 	}
 	
 	@SubscribeEvent
