@@ -1,0 +1,1 @@
+In this part we added a ore block. The tutorial will be online on 11-08-2017 18:00
