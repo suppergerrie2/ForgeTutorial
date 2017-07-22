@@ -1,0 +1,1 @@
+In this part we added a shaped recipe, a shapeless recipe and 2 smelting recipes. This part will be online on 18-08-2017

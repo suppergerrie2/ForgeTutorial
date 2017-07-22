@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "stm:items/tutorialitem"
+        "layer0": "stm:items/tutorialingot"
      },
      
     "display": {
