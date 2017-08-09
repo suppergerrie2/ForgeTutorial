@@ -1,0 +1,19 @@
+{ 
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"  ],
+  "key": {
+    "A": [
+      {
+        "item": "stm:tutorialingot",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "stm:tutorialblock",
+    "data": 0
+  }
+}
