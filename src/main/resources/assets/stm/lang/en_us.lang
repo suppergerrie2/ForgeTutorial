@@ -1,5 +1,7 @@
 item.tutorialIngot.name=Tutorial Ingot
 item.tutorialDust.name=Tutorial Dust
+item.tutorialApple.name=Tutorial Apple
+item.tutorialEffectApple.name=Tutorial Effect Apple
 
 tile.tutorialBlock.name=Tutorial Block
 tile.tutorialOre.name=Tutorial Ore
