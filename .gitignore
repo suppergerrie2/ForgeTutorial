@@ -27,3 +27,4 @@ gradlew.bat
 bin/
 ForgeTutorialPictures/
 Testing/
+build/
