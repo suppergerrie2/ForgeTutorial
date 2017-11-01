@@ -1,0 +1,16 @@
+[
+{
+  "modid": "stm",
+  "name": "Suppergerrie2's Tutorial Mod",
+  "description": "This is a tutorial mod",
+  "version": "1.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["suppergerrie2"],
+  "credits": "The internet",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
