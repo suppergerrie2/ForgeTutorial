@@ -5,3 +5,6 @@ item.tutorialEffectApple.name=Tutorial Effect Apple
 
 tile.tutorialBlock.name=Tutorial Block
 tile.tutorialOre.name=Tutorial Ore
+tile.tutorialOreMultiple.name=Tutorial Ore Multiple
+
+itemGroup.tabTutorialMod=Tutorial Mod
