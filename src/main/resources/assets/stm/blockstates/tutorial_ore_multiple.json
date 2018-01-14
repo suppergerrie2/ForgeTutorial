@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "stm:tutorial_ore_multiple" }
+        ]
+    }
+}
