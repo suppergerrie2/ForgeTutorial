@@ -12,5 +12,6 @@ item.tutorial_pickaxe_axe.name=Tutorial PickAXE
 tile.tutorial_block.name=Tutorial Block
 tile.tutorial_ore.name=Tutorial Ore
 tile.tutorial_ore_multiple.name=Tutorial Ore Multiple
+tile.tutorial_slab.name=Tutorial Slab
 
 itemGroup.tabTutorialMod=Tutorial Mod

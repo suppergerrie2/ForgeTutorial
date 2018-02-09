@@ -28,3 +28,7 @@ bin/
 ForgeTutorialPictures/
 Testing/
 build/
+output.mp4
+outputGource.ppm
+test
+gource.mp4
