@@ -5,8 +5,6 @@ import com.suppergerrie2.tutorial.init.ModBlocks;
 import com.suppergerrie2.tutorial.init.ModItems;
 import com.suppergerrie2.tutorial.init.ModRecipes;
 
-import net.minecraft.block.state.pattern.BlockMatcher;
-import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -33,8 +31,7 @@ public class TutorialMod {
 		System.out.println(Reference.MODID + ":init");
 		ModRecipes.init();
 		
-		GameRegistry.registerWorldGenerator(new OreGen(ModBlocks.tutorialOre, 7, 10, 50, 10), 0);
-		GameRegistry.registerWorldGenerator(new OreGen(Blocks.BRICK_BLOCK, 7, 0, 255, 10, 1, BlockMatcher.forBlock(Blocks.END_STONE)), 0);
+		GameRegistry.registerWorldGenerator(new OreGen(), 0);
 	}
 	
 	@EventHandler
