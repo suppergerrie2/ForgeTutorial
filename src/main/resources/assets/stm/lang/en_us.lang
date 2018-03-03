@@ -15,3 +15,6 @@ tile.tutorial_ore_multiple.name=Tutorial Ore Multiple
 tile.tutorial_slab.name=Tutorial Slab
 
 itemGroup.tabTutorialMod=Tutorial Mod
+
+enchantment.grassness=Grassness
+enchantment.thunder=Thunder
