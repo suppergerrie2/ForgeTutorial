@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "variant=default": { "model": "stm:double_tutorial_slab" }
+    }
+}

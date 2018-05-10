@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "half=bottom,variant=default": { "model": "stm:bottom_tutorial_slab" },
+        "half=top,variant=default": { "model": "stm:upper_tutorial_slab" }
+    }
+}
+

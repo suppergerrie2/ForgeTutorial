@@ -1,0 +1,18 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+	  "item": "minecraft:stone",
+	  "data": 0
+	},
+	{
+	  "item": "stm:tutorial_dust",
+	  "data": 0
+	}
+  ],
+  "result": {
+    "item": "minecraft:purpur_block",
+    "data": 0,
+	"count": 2
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "stm:blocks/tutorial_slab_top",
+        "side": "stm:blocks/tutorial_slab_side"
+    }
+}

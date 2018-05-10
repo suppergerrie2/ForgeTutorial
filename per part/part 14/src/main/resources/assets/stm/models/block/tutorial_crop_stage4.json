@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "stm:blocks/tutorial_crop_stage_4"
+    }
+}
