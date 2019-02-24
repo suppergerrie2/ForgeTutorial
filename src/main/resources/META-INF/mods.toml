@@ -1,0 +1,12 @@
+modLoader="javafml" #mandatory
+loaderVersion="[25,)" #mandatory (24 is current forge version)
+displayURL="https://suppergerrie2.com" #optional
+credits="Thanks suppergerrie2 for this example!" #optional
+authors="suppergerrie2" #optional
+[[mods]] #mandatory
+modId="sg2tutorial" #mandatory
+version="1.0" #mandatory
+displayName="Tutorial Mod" #mandatory
+description='''
+This is a mod created for the tutorial on suppergerrie2.com!
+'''
