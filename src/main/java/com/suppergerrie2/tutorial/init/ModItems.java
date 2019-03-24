@@ -20,7 +20,7 @@ public class ModItems {
     //Name has to match the registry name, else forge cant inject the item into here.
     //We dont have to add the modid because we added @ObjectHolder(modid) on the class itself
     //Note: even though this is final, forge can still change it! Your ide will complain that it will be null forever but this wont be the case.
-    public static final Item tutorial_item = null;
+    public static final Item tutorial_dust = null;
 
     /**
      * In here we register our items, this event is fired by forge on the {@link Mod.EventBusSubscriber.Bus mod bus}. <br/>
@@ -32,7 +32,7 @@ public class ModItems {
         event.getRegistry().registerAll(
 
                 //We instantiate a new item instance and pass in a Item.Properties instance with the maxStackSize set to 32, and the creative tab (group) set to miscellaneous.
-                //Note that the tutorial_item variable's name matches the registry name.
+                //Note that the tutorial_dust variable's name matches the registry name.
                 new Item(new Item.Properties().maxStackSize(32).group(ItemGroup.MISC)).setRegistryName(Reference.MODID, "tutorial_dust")
 
         );
