@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": [
+            { "model": "sg2tutorial:block/tutorial_block" }
+        ]
+    }
+}

@@ -1,7 +1,9 @@
 package com.suppergerrie2.tutorial.init;
 
 import com.suppergerrie2.tutorial.Reference;
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -33,9 +35,23 @@ public class ModItems {
 
                 //We instantiate a new item instance and pass in a Item.Properties instance with the maxStackSize set to 32, and the creative tab (group) set to miscellaneous.
                 //Note that the tutorial_dust variable's name matches the registry name.
-                new Item(new Item.Properties().maxStackSize(32).group(ItemGroup.MISC)).setRegistryName(Reference.MODID, "tutorial_dust")
+                new Item(new Item.Properties().maxStackSize(32).group(ItemGroup.MISC)).setRegistryName(Reference.MODID, "tutorial_dust"),
+
+
+                //ItemBlock
+                createItemBlockForBlock(ModBlocks.tutorial_block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS).maxStackSize(64))
 
         );
+    }
+
+    /**
+     * Create the itemblock for the given block instance. The registryname will be set here.
+     * @param block The block instance to create the item for.
+     * @param properties The item properties to use
+     * @return The itemblock
+     */
+    private static ItemBlock createItemBlockForBlock(Block block, Item.Properties properties) {
+        return (ItemBlock) new ItemBlock(block, properties).setRegistryName(block.getRegistryName());
     }
 
 }
