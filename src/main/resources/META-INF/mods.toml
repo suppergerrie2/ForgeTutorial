@@ -1,0 +1,10 @@
+modLoader="javafml" #mandatory
+loaderVersion="[26]" #mandatory
+credits="Thanks suppergerrie2 for this example!" #optional
+[[mods]] #mandatory
+modId="stutorialmod" #mandatory
+version="1.0" #mandatory
+displayName="Tutorial Mod" #mandatory
+description='''
+A mod developed for suppergerrie2's tutorial
+'''
