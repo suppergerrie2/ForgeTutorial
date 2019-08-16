@@ -1,5 +1,5 @@
 modLoader="javafml" #mandatory
-loaderVersion="[26]" #mandatory
+loaderVersion="[28]" #mandatory
 credits="Thanks suppergerrie2 for this example!" #optional
 [[mods]] #mandatory
 modId="stutorialmod" #mandatory
