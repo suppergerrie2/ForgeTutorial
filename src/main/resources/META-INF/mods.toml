@@ -2,9 +2,9 @@ modLoader="javafml" #mandatory
 loaderVersion="[28]" #mandatory
 credits="Thanks suppergerrie2 for this example!" #optional
 [[mods]] #mandatory
-modId="stutorialmod" #mandatory
+modId="sshingeki-no-craft" #mandatory
 version="1.0" #mandatory
-displayName="Tutorial Mod" #mandatory
+displayName="Shingeki No Craft" #mandatory
 description='''
-A mod developed for suppergerrie2's tutorial
+A mod developed by suppergerrie2's tutorial
 '''
