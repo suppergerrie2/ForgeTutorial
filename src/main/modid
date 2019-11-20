@@ -1,0 +1,14 @@
+"modid": "shingeki-No-Craft",
+  "name": "Shingeki-No-Craft",
+  "description": "First attempt at Minecraft modding.",
+  "version": "${0.1.1}",
+  "mcversion": "${1.14.4}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["AutisticGitHub"],
+  "credits": "AutisticGitHub",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
