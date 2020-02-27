@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": [
+            { "model": "stutorialmod:block/tutorial_block" }
+        ]
+    }
+}

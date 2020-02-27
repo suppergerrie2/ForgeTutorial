@@ -1,5 +1,6 @@
 package com.suppergerrie2.stutorialmod;
 
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,5 +14,8 @@ public class ModItems {
 
     //Register the tutorial dust with "tutorial_dust" as registry name and default properties
     public static final RegistryObject<Item> TUTORIAL_DUST = ITEMS.register("tutorial_dust", () -> new Item(new Item.Properties()));
+
+    //Register the tutorial block's item so a player can place it.
+    public static final RegistryObject<Item> TUTORIAL_BLOCK = ITEMS.register("tutorial_block", () -> new BlockItem(ModBlocks.TUTORIAL_BLOCK.get(), new Item.Properties()));
 
 }
